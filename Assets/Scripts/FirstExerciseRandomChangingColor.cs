@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FirstExerciseRandomChangingColor : MonoBehaviour
 {
-    int current_frame = 0;
+    private int current_frame = 0;
     public int amount_of_frames = 120;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

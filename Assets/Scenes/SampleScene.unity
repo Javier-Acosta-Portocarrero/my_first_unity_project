@@ -542,7 +542,7 @@ Transform:
   m_GameObject: {fileID: 1436325275}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.04, y: 0.05, z: 0.093}
+  m_LocalPosition: {x: -2.02, y: 0.05, z: 0.093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436325275}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe717ba145f7fcf46b59dae5d72e743c, type: 3}
   m_Name: 
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f9df7b93c47d44b87917be33fd4a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FifthExerciseLinealMovementSpaceBar
-  movement_direction: {x: 0.02, y: 0.02, z: 0.02}
+  movementDirection: {x: 1, y: 1, z: 1}
 --- !u!1 &1543649630
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,7 +618,6 @@ GameObject:
   - component: {fileID: 1543649637}
   - component: {fileID: 1543649638}
   - component: {fileID: 1543649639}
-  - component: {fileID: 1543649640}
   - component: {fileID: 1543649641}
   - component: {fileID: 1543649642}
   - component: {fileID: 1543649643}
@@ -748,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f9df7b93c47d44b87917be33fd4a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FifthExerciseLinealMovementSpaceBar
-  movement_direction: {x: -0.02, y: 0.02, z: 0.02}
+  movementDirection: {x: 1, y: 1, z: 1}
 --- !u!114 &1543649637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -774,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d30bfa79e9c4eb459047dcd098a2fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EigthExerciseMovementsWithSpeedByFrame
-  movement_direction: {x: 0, y: 0, z: 0.01}
+  moveDirection: {x: 1, y: 1, z: 1}
   speed: 1.1
 --- !u!114 &1543649639
 MonoBehaviour:
@@ -788,19 +787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236d1c56aa75f1e4298f72597f3dc842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NinthExerciseMovementWithKeysAndSpeed
-  speed: 1
---- !u!114 &1543649640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543649630}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20f66eb0901d3ba479f238843448db66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TenthExerciseMovementWithTime
   speed: 1
 --- !u!114 &1543649641
 MonoBehaviour:
@@ -836,7 +822,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543649630}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5da824f9925b81458df8d16d8a4f20a, type: 3}
   m_Name: 
@@ -850,7 +836,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543649630}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0a488e1e6f2d54409b7a3324f927294, type: 3}
   m_Name: 
@@ -984,7 +970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f9df7b93c47d44b87917be33fd4a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FifthExerciseLinealMovementSpaceBar
-  movement_direction: {x: 0, y: 0.02, z: 0.02}
+  movementDirection: {x: 1, y: 1, z: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - random_color_cube
   - suspicious_cylinder
+  - golden_sphere
   layers:
   - Default
   - TransparentFX

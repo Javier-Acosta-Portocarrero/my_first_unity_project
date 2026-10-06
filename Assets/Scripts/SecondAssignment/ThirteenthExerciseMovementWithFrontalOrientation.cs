@@ -24,7 +24,7 @@ public class ThirteenthExerciseMovementWithFrontalOrientation : MonoBehaviour
     private void MoveWhileRotating()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
-        // Rotate to the left or the right
+        // Rotate to the left or the right, around the Y axis
         transform.Rotate(0, horizontalInput * rotationSpeed * Time.deltaTime, 0);
         // Advance forward
         transform.position += transform.forward * speed * Time.deltaTime;

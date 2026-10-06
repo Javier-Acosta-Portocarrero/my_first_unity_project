@@ -22,6 +22,7 @@ public class EleventhMovementTowardsTarget : MonoBehaviour
     private void MoveTowardsTarget()
     {
         Vector3 movementDirection = GameObject.FindWithTag(targetTag).transform.position - transform.position;  // Vector with the distance to the target.
+        movementDirection[1] = 0;  // Ignore the Y axis to avoid moving up or down
         transform.Translate(movementDirection.normalized * speed * Time.deltaTime);
     }
 }

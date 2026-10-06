@@ -30,6 +30,7 @@ public class TwelfthExerciseLookAtTarget : MonoBehaviour
         transform.LookAt(target.transform);
 
         Vector3 movementDirection = target.transform.position - transform.position;  // Vector with the distance
+        movementDirection[1] = 0;  // Ignore the Y axis to avoid moving up or down
         transform.Translate(movementDirection.normalized * speed * Time.deltaTime, Space.World);  // Use movement relative to the world.
     }
 }

@@ -555,13 +555,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436325275}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82e13a256d087014aa6d8e0c647290e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SecondExerciseVector3Manipulation
-  first_vector: {x: 1, y: 1, z: 1}
-  second_vector: {x: 1, y: 0, z: 1}
+  firstVector: {x: 1, y: 1, z: 1}
+  secondVector: {x: 1, y: 0, z: 1}
 --- !u!114 &1436325281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436325275}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe717ba145f7fcf46b59dae5d72e743c, type: 3}
   m_Name: 
@@ -581,13 +581,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436325275}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7bb1cc22e5eb25468af643d1e97fa5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FourthExerciseCalculaDistanceBetweenGameObjects
-  cube_tag: random_color_cube
-  cylinder_tag: suspicious_cylinder
+  cubeTag: random_color_cube
+  cylinderTag: suspicious_cylinder
 --- !u!114 &1436325283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 312dad5e80b3dea488b59f0163777625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstExerciseRandomChangingColor
-  amount_of_frames: 120
+  amountOfFrames: 120
 --- !u!114 &1543649636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,7 +952,7 @@ Transform:
   m_GameObject: {fileID: 1807862800}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.968, y: 0.478, z: -0.012}
+  m_LocalPosition: {x: 2.24, y: 0.478, z: -0.012}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

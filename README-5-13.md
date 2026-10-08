@@ -1,4 +1,4 @@
-# Práctica 1 Unity - Interfaces Inteligentes
+# Ejercicios 5-13
 
 Autor: Javier Acosta Portocarrero
 
@@ -34,7 +34,7 @@ Resultados obtenidos para:
 - b) Duplicas la velocidad manteniendo la dirección del movimiento: Esto consigue que el objeto se mueva el doble en cada frame, es decir, que se mueva el doble de rápido, al igual que en el caso anterior.
 - c) La velocidad que usas es menor que 1: Esto consigue que el objeto se mueva menos en cada frame, es decir, que se mueva más lento. Si en vez de esto hacemos que la velocidad sea negativa, el objeto se moverá en la dirección opuesta a la indicada por el vector de movimiento.
 - d) La posición del cubo tiene y>0: Esto solo consigue que el cubo se mueva en la dirección indicada por el vector de movimiento, no hay ningún efecto especial por tener y>0, más que empezar a moverse desde una posición más alta en el eje y. Si en cambio hacemos que y>0 ```moveDirection``` (el vector de movimiento), también se moverá hacia arriba además de hacia delante (solo tenía un valor distinto de 0 en el eje z antes de aplicar este cambio), ya que el vector de movimiento tiene un componente positivo en el eje y.
-- e) Intercambiar movimiento relativo al sistema de referencia local y el mundial: En caso de tener movimiento relativo al sistema de referencia mundial, el objeto se moverá en la dirección indicada por el vector de movimiento, sin importar la orientación del objeto. En cambio, si tenemos movimiento relativo al sistema de referencia local, el objeto se moverá en la dirección indicada por el vector de movimiento, pero teniendo en cuenta la orientación del objeto. Por ejemplo, si el objeto está rotado 90 grados en el eje y, y el vector de movimiento tiene un valor positivo en el eje z, el objeto se moverá hacia la derecha (en el eje x) en lugar de hacia delante (en el eje z).
+- e) Intercambiar movimiento relativo al sistema de referencia local y el mundial: En caso de tener movimiento relativo al sistema de referencia mundial, el objeto se moverá en la dirección indicada por el vector de movimiento, sin importar la orientación del objeto. En cambio, si tenemos movimiento relativo al sistema de referencia local, el objeto se moverá en la dirección indicada por el vector de movimiento, pero teniendo en cuenta la orientación del objeto.
 
 Prueba de ejecución de este ejercicio:
 ![Gif Ejercicio 8](./gifs-readme2/ejercicio8.gif)

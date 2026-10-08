@@ -23,6 +23,6 @@ public class ThirdExerciseSowPosition : MonoBehaviour
         text_style.normal.textColor = Color.green;  
         // The parameters are x, y, width and height, the (0, 0) is on the top left corner
         GUI.Label(new Rect(10, 10, 200, 20), "Sphere position: " + current_position, text_style);
-        
+
     }
 }

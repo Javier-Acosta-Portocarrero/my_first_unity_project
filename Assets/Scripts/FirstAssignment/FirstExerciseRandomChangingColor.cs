@@ -13,6 +13,11 @@ public class FirstExerciseRandomChangingColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ChangeRandomColorByFrames();
+    }
+
+    private void ChangeRandomColorByFrames() 
+    {
         // Debug.Log("Current frame: " + current_frame);
         ++current_frame;
         if (current_frame == amount_of_frames) 
